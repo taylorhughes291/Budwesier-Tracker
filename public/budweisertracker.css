@@ -1,0 +1,83 @@
+/*Base Styles*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Notable', sans-serif;
+	color: white;
+	max-width: 100%;
+	line-height: 1.5;
+	background: #c8102e;
+	text-align: center;
+}
+
+header {
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+/*Pseudo Classes*/
+
+ul.event-style {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+ul.event-style > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+/*Main Styles*/
+.main-content {
+	text-align: center;
+	justify-content: center;
+}
+
+#event-border {
+	border-bottom: solid;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#inactiveList {
+	text-decoration: line-through;
+}
+
+#container {
+	height: 100%;
+	max-width: 60%;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+#leftThing {
+	width: 33%;
+	border-style: solid;
+  
+}
+#middleThing {
+	width: 33%;
+	border-style: solid;
+}
+#rightThing {
+ 	width: 34%;
+ 	border-style: solid;ß
+}
+
+/*Layout Styles*/
+
+
+
+/*Floated Columns*/
+
+
+/*Float Clearfix*/
